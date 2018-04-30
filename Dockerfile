@@ -14,4 +14,4 @@ RUN  apt-get install -qq -y --no-install-recommends unifi
 WORKDIR /var/lib/unifi
 
 ENTRYPOINT ["/usr/bin/java", "-Xmx1024M", "-jar", "/usr/lib/unifi/lib/ace.jar"]
-CMD ["start"
+CMD ["start"]
